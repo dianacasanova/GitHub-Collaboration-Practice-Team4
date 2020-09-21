@@ -1,0 +1,37 @@
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+
+For more details, please visit https://support.apple.com/kb/HT208050.
+
+(base) Angels-MacBook-Pro:~ angelmr$ pwd
+/Users/angelmr
+
+(base) Angels-MacBook-Pro:~ angelmr$ cd Desktop/fall_2020/
+
+(base) Angels-MacBook-Pro:fall_2020 angelmr$ git clone https://github.com/dianacasanova/GitHub-Collaboration-Practice.git
+
+(base) Angels-MacBook-Pro:fall_2020 cd GitHub-Collaboration-Practice/
+
+(base) Angels-MacBook-Pro:GitHub-Collaboration-Practice angelmr$ git checkout -b amr_branch
+Switched to a new branch 'amr_branch'
+
+(base) Angels-MacBook-Pro:GitHub-Collaboration-Practice angelmr$ pwd
+/Users/angelmr/Desktop/fall_2020/GitHub-Collaboration-Practice
+
+(base) Angels-MacBook-Pro:GitHub-Collaboration-Practice angelmr$ ls
+README.md		angel_diana_shruti.txt
+
+(base) Angels-MacBook-Pro:GitHub-Collaboration-Practice angelmr$ vim angel_diana_shruti.txt 
+
+(base) Angels-MacBook-Pro:GitHub-Collaboration-Practice angelmr$ touch amr_commands.txt
+
+(base) Angels-MacBook-Pro:GitHub-Collaboration-Practice angelmr$ ls
+README.md		amr_commands.txt	angel_diana_shruti.txt
+
+(base) Angels-MacBook-Pro:GitHub-Collaboration-Practice angelmr$ vim amr_commands.txt 
+
+(base) Angels-MacBook-Pro:GitHub-Collaboration-Practice angelmr$ git add *
+
+(base) Angels-MacBook-Pro:GitHub-Collaboration-Practice angelmr$ git commit -m "added my name and research interests to angel_diana_shruti file and added amr_commands file"
+
+(base) Angels-MacBook-Pro:GitHub-Collaboration-Practice angelmr$ git push
