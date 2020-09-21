@@ -1,0 +1,44 @@
+diana@LAPTOP-22R59CG4 MINGW64 ~
+$ cd Documents/PhD/CSS\ Projects/
+
+diana@LAPTOP-22R59CG4 MINGW64 ~/Documents/PhD/CSS Projects
+$ git clone https://github.com/dianacasanova/GitHub-Collaboration-Practice.git
+Cloning into 'GitHub-Collaboration-Practice'...
+remote: Enumerating objects: 18, done.
+remote: Counting objects: 100% (18/18), done.
+remote: Compressing objects: 100% (12/12), done.
+remote: Total 18 (delta 3), reused 7 (delta 3), pack-reused 0
+Unpacking objects: 100% (18/18), 4.14 KiB | 56.00 KiB/s, done.
+
+
+diana@LAPTOP-22R59CG4 MINGW64 ~/Documents/PhD/CSS Projects
+$ cd GitHub-Collaboration-Practice/
+
+diana@LAPTOP-22R59CG4 MINGW64 ~/Documents/PhD/CSS Projects/GitHub-Collaboration-Practice (master)
+$ git pull
+Already up to date.
+
+diana@LAPTOP-22R59CG4 MINGW64 ~/Documents/PhD/CSS Projects/GitHub-Collaboration-Practice (master)
+$ git checkout -b dc_new_branch
+Switched to a new branch 'dc_new_branch'
+
+diana@LAPTOP-22R59CG4 MINGW64 ~/Documents/PhD/CSS Projects/GitHub-Collaboration-Practice (dc_new_branch)
+$ vim angel_diana_shruti.txt
+
+diana@LAPTOP-22R59CG4 MINGW64 ~/Documents/PhD/CSS Projects/GitHub-Collaboration-Practice (dc_new_branch)
+$ touch dc_project1.3.txt
+
+diana@LAPTOP-22R59CG4 MINGW64 ~/Documents/PhD/CSS Projects/GitHub-Collaboration-Practice (dc_new_branch)
+$ vim dc_project1.3.txt
+
+diana@LAPTOP-22R59CG4 MINGW64 ~/Documents/PhD/CSS Projects/GitHub-Collaboration-Practice (dc_new_branch)
+$ git add *
+
+diana@LAPTOP-22R59CG4 MINGW64 ~/Documents/PhD/CSS Projects/GitHub-Collaboration-Practice (dc_new_branch)
+$ git commit -m "Diana Adding Collaboration Section (Part 3) of Project 1"
+
+diana@LAPTOP-22R59CG4 MINGW64 ~/Documents/PhD/CSS Projects/GitHub-Collaboration-Practice (dc_new_branch)
+$ git push --set-upstream origin dc_new_branch
+
+
+
