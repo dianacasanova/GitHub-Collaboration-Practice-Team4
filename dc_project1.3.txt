@@ -38,6 +38,7 @@ diana@LAPTOP-22R59CG4 MINGW64 ~/Documents/PhD/CSS Projects/GitHub-Collaboration-
 $ git commit -m "Diana Adding Collaboration Section (Part 3) of Project 1"
 
 diana@LAPTOP-22R59CG4 MINGW64 ~/Documents/PhD/CSS Projects/GitHub-Collaboration-Practice (dc_new_branch)
-$ git push
+$ git push --set-upstream origin dc_new_branch
+
 
 
