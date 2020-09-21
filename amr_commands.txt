@@ -34,4 +34,4 @@ README.md		amr_commands.txt	angel_diana_shruti.txt
 
 (base) Angels-MacBook-Pro:GitHub-Collaboration-Practice angelmr$ git commit -m "added my name and research interests to angel_diana_shruti file and added amr_commands file"
 
-(base) Angels-MacBook-Pro:GitHub-Collaboration-Practice angelmr$ git push
+(base) Angels-MacBook-Pro:GitHub-Collaboration-Practice angelmr$ git push --set-upstream origin amr_branch
