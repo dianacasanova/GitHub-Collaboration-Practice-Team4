@@ -1,0 +1,27 @@
+
+shrutis-air:Users shrutibathia$ cd shrutibathia
+
+shrutis-air:~ shrutibathia$ git clone https://github.com/dianacasanova/GitHub-Collaboration-Practice.git
+Cloning into 'GitHub-Collaboration-Practice'...
+remote: Enumerating objects: 35, done.
+remote: Counting objects: 100% (35/35), done.
+remote: Compressing objects: 100% (25/25), done.
+remote: Total 35 (delta 9), reused 21 (delta 7), pack-reused 0
+Unpacking objects: 100% (35/35), 6.88 KiB | 207.00 KiB/s, done.
+
+shrutis-air:~ shrutibathia$ cd GitHub-Collaboration-Practice/
+
+shrutis-air:GitHub-Collaboration-Practice shrutibathia$ git checkout -b new_branch_sb
+Switched to a new branch 'new_branch_sb'
+
+shrutis-air:GitHub-Collaboration-Practice shrutibathia$ vim angel_diana_shruti.txt 
+
+shrutis-air:GitHub-Collaboration-Practice shrutibathia$ touch project1codes_shruti.txt
+
+shrutis-air:GitHub-Collaboration-Practice shrutibathia$ vim project1codes_shruti.txt
+
+shrutis-air:GitHub-Collaboration-Practice shrutibathia$ git add*
+
+shrutis-air:GitHub-Collaboration-Practice shrutibathia$ git commit -m "Shruti Adding Collaboration Section (Part 3) of Project 1"
+
+shrutis-air:GitHub-Collaboration-Practice shrutibathia$ git push --set-upstream origin new_branch_sb
